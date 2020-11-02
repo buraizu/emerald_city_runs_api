@@ -1,6 +1,6 @@
 class RunsController < ApplicationController
   before_action :authenticate_user, only: [:update, :destroy, :create]
-
+  # comment
   def index
     @runs = current_user.runs
     render json: @runs, status: 200
