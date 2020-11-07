@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: emerald_city_runs_api_production
   username: emerald_city_runs_api
   password: <%= ENV['EMERALD_CITY_RUNS_API_DATABASE_PASSWORD'] %>
