@@ -11,7 +11,8 @@ Rails.application.configure do
   # just for the purpose of running a single test. If you are using a tool that
   # preloads Rails for running tests, you may have to set it to true.
   config.eager_load = false
-  # hopefully upgrading the DB to hobby:basic will allow it to work with DD
+  # upgrading to hobby:basic didn't work, but maybe that's because it didn't provide any additional in-app memory.
+  # now we're on the standard plan, and hopfully everything will work
   # Configure public file server for tests with Cache-Control for performance.
   config.public_file_server.enabled = true
   config.public_file_server.headers = {
