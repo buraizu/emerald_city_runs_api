@@ -13,6 +13,7 @@ Rails.application.configure do
   config.eager_load = false
   # upgrading to hobby:basic didn't work, but maybe that's because it didn't provide any additional in-app memory.
   # now we're on the standard plan, and hopfully everything will work
+  # now the dyno has been upgraded as well, and went through the steps again for setting up dd-heroku buildpack
   # Configure public file server for tests with Cache-Control for performance.
   config.public_file_server.enabled = true
   config.public_file_server.headers = {
