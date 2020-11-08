@@ -57,6 +57,8 @@ GEM
       activesupport
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    ddtrace (0.42.0)
+      msgpack
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.2)
@@ -171,6 +173,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   byebug
+  ddtrace
   dotenv-rails
   jwt
   knock
