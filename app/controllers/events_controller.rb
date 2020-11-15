@@ -17,7 +17,8 @@ class EventsController < ApplicationController
       if !existing_event
         newEvent = Event.new
         newEvent.title = result["assetName"]
-        newEvent.url = result["homePageUrlAdr"]
+        newEvent.reg_url = result["registrationUrlAdr"]
+        newEvent.home_url = result["homePageUrlAdr"]
         newEvent.date = result["activityStartDate"]
         if newEvent.save
           puts "saved event from Active api"
