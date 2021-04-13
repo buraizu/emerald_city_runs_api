@@ -16,15 +16,15 @@ instances:
     ## @param user - string - required
     ## Datadog Username created to connect to PostgreSQL.
     #
-    username: datadog
+    username: oxhxzfqmwyvgrq
 
     ## @param pass - string - required
     ## Password associated with the Datadog user.
     #
-    password: "datadog"
+    password: "aa779ea96a0e42239c936ade0429cfcc8f14f5657949f2ef275f327cc8dca310"
 
     ## @param dbname - string - optional - default: postgres
     ## Name of the PostgresSQL database to monitor.
     ## Note: If omitted, the default system postgres database is queried.
     #
-    dbname: "postgresql-amorphous-06466"
+    dbname: ""
