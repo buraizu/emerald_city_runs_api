@@ -1,0 +1,6 @@
+logs:
+  - type: file
+    path: "/app/log/production.log"
+    service: ruby
+    source: ruby
+    sourcecategory: sourcecode
