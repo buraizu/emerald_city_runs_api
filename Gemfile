@@ -17,8 +17,8 @@ gem 'puma', '~> 3.11'
 gem 'bcrypt', '~> 3.1.7'
 gem 'knock'
 gem 'jwt'
-gem 'ddtrace', require: 'ddtrace/auto_instrument'
-gem 'lograge'
+gem 'ddtrace'
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
